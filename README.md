@@ -51,10 +51,10 @@ BREAK!
 
 
 
-#문자열
+# 문자열
 
 
-##문자열 인덱싱
+## 문자열 인덱싱
 ```python
 "p  y  t  h  o  n"
 [0][1][2][3][4][5]
@@ -67,7 +67,22 @@ a[0:5:x]
 2번째 = end값
 3번째 = step값
 예: print(a[0:5:2])
-
+->pto
 ```
 
-##문자열 슬라이싱
+## 문자열 슬라이싱
+```python
+ 거꾸로 뒤집어 쓰기
+->변수[::-1]
+ 뒤의 x칸만 쓰기
+ ->변수[-x:]
+ ```
+ ## 문자열 치환
+ ```python
+ phone = "010-1111-2222"
+ replace함수를 이용해 바꿀수 있음
+ 예 : 1. phone_1 = phone.replace('-',' ')
+         print(phone_1)
+      2.phone = phone.replace('-', ' ')
+        print(phone)
+ 2번의 경우 원래의 변수가 replace값으로 바뀜.
