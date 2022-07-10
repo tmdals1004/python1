@@ -86,3 +86,20 @@ a[0:5:x]
       2.phone = phone.replace('-', ' ')
         print(phone)
  2번의 경우 원래의 변수가 replace값으로 바뀜.
+```
+
+## 문자열 다루기
+```python
+ex: 사이트의 뒷주소(도메인)출력
+->url = "https://sharebook.kr"
+split함수를 이용해 .을 기준으로 나눔
+url_split = url.split('.')
+print(url_split[-1]) -> 뒤로부터 1칸
+```
+## replace 메서드
+```python
+문자열은 원래 값 자체를 바꾸는것은 불가능 -> replace함수 사용
+a = "python"
+a_1 = a.replace('p', 'P')
+print(a_1)
+```
